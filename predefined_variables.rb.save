@@ -1,0 +1,7 @@
+#here we have a file in which all predefined variables are stored
+#$0 current file name 
+puts"current file name #{$0}"
+puts"current process id #{$$}"
+puts"current path #{$:}"
+puts"Argument passed in command line #{Argv.inspect}"
+puts 
